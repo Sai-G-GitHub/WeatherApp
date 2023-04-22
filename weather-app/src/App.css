@@ -1,0 +1,122 @@
+.bg {
+  background-image: url("https://img5.goodfon.com/original/1920x1080/a/64/sozvezdiia-kosmos-tumannosti-zvezdy-beskonechnoe.jpg");
+  background-repeat: repeat;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main {
+  text-align: center;
+  color: #a5d6e9;
+}
+
+.location {
+  padding-top: 65px;
+  font-size: 25px;
+}
+
+.weatherdes {
+  margin-top: 25px;
+  margin-bottom: -5px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.maintemp {
+  padding-top: 5px;
+  font-size: 95px;
+  font-weight: bolder;
+  padding-right: 50px;
+}
+
+.minmax {
+  position: relative;
+  margin-top: 14px;
+  padding: 5px;
+}
+
+.container1 {
+  display: flex;
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.searchbox {
+  cursor: text;
+  width: 290px;
+  height: 40px;
+  color: green;
+  background: #dff6ff;
+  border: none;
+  border-bottom-color: #b3b3b3;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-left-color: #b3b3b3;
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-right-color: #b3b3b3;
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-top-color: #b3b3b3;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  font-size: 22px;
+  transition: 0.4s ease;
+  text-transform: capitalize;
+  text-align: center;
+  margin-right: 5px;
+}
+
+.searchbutton {
+  cursor: pointer;
+  color: green;
+  background: #dff6ff;
+  border-radius: 50%;
+  font-size: 22px;
+  transition: 0.6s ease;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  z-index: 10;
+}
+
+.container {
+  position: relative;
+  width: 10%;
+  height: 100px;
+  background: #5940bd;
+  padding: 28px 32px;
+  overflow: hidden;
+  border-radius: 18px;
+  font-family: "Roboto", sans-serif;
+  transition: 0.6s ease-out;
+}
+
+.fade {
+  transform: scale(0.00001);
+}
+
+.fadeIn {
+  animation: 0.75s fadeIn forwards;
+  animation-delay: 0.5s;
+}
+@keyframes fadeIn {
+  to {
+    transform: scale(1.1);
+    opacity: 1;
+  }
+}
+
+.notfound {
+  position: relative;
+  /* width: 100%; */
+  /* text-align: center; */
+  padding-top: 200px;
+}
